@@ -1,0 +1,162 @@
+/* Đặt font chữ chung và reset cơ bản */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Định dạng container chính bao gồm tiêu đề và form */
+.login-container {
+    width: 100%;
+    max-width: 450px; /* Giới hạn chiều rộng của toàn bộ khối đăng nhập */
+    text-align: center; /* Căn giữa các nội dung bên trong */
+}
+
+.login-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+/* Định dạng tiêu đề */
+.login-card h2 {
+    color: #333; /* Màu chữ tối trên nền trắng */
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.login-card h3 {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Định dạng khối form (Khối màu trắng) */
+.login-card form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Định dạng nhãn (labels) */
+label {
+    /* Đảm bảo khoảng cách dưới label được kiểm soát */
+    margin-bottom: 5px; 
+    font-weight: 500;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Định dạng ô input */
+.login-card input[type="text"],
+.login-card input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-card input[type="text"]:focus,
+.login-card input[type="password"]:focus {
+    border-color: #9b59b6;
+    box-shadow: 0 0 5px rgba(155, 89, 182, 0.5);
+    outline: none;
+}
+
+/* Định dạng nút Đăng nhập */
+.login-card button[type="submit"] {
+    width: 100%;
+    background-color: #9b59b6;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.login-card button[type="submit"]:hover {
+    background-color: #8e44ad;
+}
+
+.login-card button[type="submit"]:active {
+    transform: translateY(1px);
+}
+
+/* Định dạng thông báo lỗi và liên kết */
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+p[style="color:red;"] {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #ffdddd !important; /* Đổi màu lỗi sang màu đỏ nhạt để dễ đọc trên nền tối */
+    background: rgba(255, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 5px;
+}
+form p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Định dạng thông báo lỗi (error message - khối màu hồng nhạt) */
+form p[style*="color:red"] {
+    margin-top: 0; /* Đã có margin-bottom 20px từ nút Đăng nhập */
+    margin-bottom: 15px; /* KHOẢNG CÁCH RÕ RÀNG VỚI LIÊN KẾT ĐĂNG KÝ */
+    font-weight: 500;
+    color: #cc0000 !important;
+    background: #ffe3e6;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Định dạng liên kết đăng ký */
+form p:last-child {
+    /* Thêm padding dưới cùng cho form */
+    padding-bottom: 10px;
+    color: #555;
+}
+
+form p a {
+    color: #9b59b6;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+form p a:hover {
+    color: #71b7e6;
+    text-decoration: underline;
+}
+p:last-child {
+    margin-top: 15px;
+    color: #e0e0e0;
+}
+
+p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+p a:hover {
+    color: #71b7e6;
+    text-decoration: underline;
+}
