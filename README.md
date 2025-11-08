@@ -1,77 +1,111 @@
-📖 1. Giới thiệu
-Hệ thống Quản lý Đoàn viên trong trường Đại học được xây dựng nhằm hỗ trợ công tác quản lý, theo dõi và đánh giá hoạt động của Đoàn Thanh niên trong môi trường giáo dục đại học. Thay vì quản lý thủ công bằng giấy tờ hay các tệp Excel rời rạc, hệ thống mang đến một giải pháp tập trung, hiện đại và dễ sử dụng.
+<img width="1364" height="645" alt="image" src="https://github.com/user-attachments/assets/fea6586d-3738-4709-b751-d042f8d6d6e7" /># Hệ thống quản lý đồ án tốt nghiệp
+## 1. Giới thiệu
 
-🔧 2. Các công nghệ được sử dụng
-Hệ điều hành
-macOS Windows Ubuntu
+Nền tảng giúp kết nối sinh viên và giảng viên, tối ưu hóa mọi bước trong quá trình hoàn thành đồ án tốt nghiệp.
+Hệ thống được xây dựng nhằm hỗ trợ công tác quản lý, theo dõi và đánh giá hoạt động của sinh viên trong suốt quá trình làm đồ án. Thay vì quản lý thủ công, hệ thống mang đến một giải pháp tập trung, hiện đại và dễ sử dụng.
 
-Công nghệ chính
-PHP HTML5 CSS SCSS JavaScript Bootstrap
+## 2. Các công nghệ được sử dụng
 
-Web Server & Database
-Apache MySQL XAMPP
+**Hệ điều hành**
+<br>
+<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
 
-Database Management Tools
-MySQL Workbench
+**Công nghệ chính**
+<br>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 
-🚀 3. Hình ảnh các chức năng
-Trang đăng nhập
-image ### Trang dashboard admin image ### Trang dashboard cán bộ image ### Trang dashboard đoàn viên image ### Trang quản lý liên chi đoàn image ### Trang quản lý chi đoàn image ### Trang quản lý đoàn viên image ### Trang quản lý lịch sử tham gia image ### Trang quản lý đoàn phí image ### Trang quản lý điểm rèn luyện image ### Trang quản lý sự kiện image ### Trang quản lý khen thưởng image ### Trang quản lý thông báo image ### Trang quản lý tài khoản image ## ⚙️ 4. Cài đặt
-4.1. Cài đặt công cụ, môi trường và các thư viện cần thiết
-Tải và cài đặt XAMPP
-👉 https://www.apachefriends.org/download.html
-(Khuyến nghị bản XAMPP với PHP 8.x)
+**Web Server & Database**
+<br>
+<img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white">
 
-Cài đặt Visual Studio Code và các extension:
+## 3. Hình ảnh các chức năng
 
-PHP Intelephense
-MySQL
-Prettier – Code Formatter
-4.2. Tải project
-Clone project về thư mục htdocs của XAMPP (ví dụ ổ C):
+### Trang đăng nhập
+![Ảnh chụp màn hình trang đăng nhập](public/images/trangdangnhap.png)
 
+### Trang dashboard admin
+![Ảnh chụp màn hình trang admin](public/images/Screenshot_admin.png)
+
+### Trang dashboard giảng viên
+![Ảnh chụp màn hình trang giảng viên](public/images/Screenshot_giangvien.png)
+
+### Trang dashboard sinh viên
+![Ảnh chụp màn hình trang sinh viên](public/images/Screenshot_sinhvien.png)
+
+
+## 4. Hướng dẫn cài đặt
+
+#### 4.1. Cài đặt công cụ
+
+* Tải và cài đặt XAMPP
+* Tải XAMPP tại: [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
+* Cài đặt Visual Studio Code và các extension:
+    * PHP Intelephense
+    * MySQL
+    * Prettier - Code Formatter
+
+### 4.2. Tải project (Clone)
+
+Mở Terminal (dòng lệnh), di chuyển đến thư mục `htdocs` của XAMPP và chạy lệnh sau:
+
+```bash
+# Di chuyển vào thư mục htdocs (thay C:\ bằng ổ đĩa của bạn nếu khác)
 cd C:\xampp\htdocs
-https://github.com/tyanzuq2811/BTL_Quan_ly_doan_vien.git
-Truy cập project qua đường dẫn:
-👉 http://localhost/authentication_login.
-4.3. Setup database
-Mở XAMPP Control Panel, Start Apache và MySQL
 
-Truy cập MySQL WorkBench Tạo database:
+# Clone dự án từ GitHub
+git clone [https://github.com/Nguyen-Viet-Viet-Cntt-17-14/quanlydoanto…hub.com/Nguyen-Viet-Viet-Cntt-17-14/quanlydoantotnghiep.git)
+```
 
-CREATE DATABASE IF NOT EXISTS quan_ly_doan_vien
-   CHARACTER SET utf8mb4
-   COLLATE utf8mb4_unicode_ci;
-4.4. Setup tham số kết nối
-Mở file config.php (hoặc .env) trong project, chỉnh thông tin DB:
+### 4.3. Cài đặt Database
 
+Mở XAMPP Control Panel, khởi động Apache và MySQL.
+
+Truy cập MySQL Workbench Tạo Database:
+```bash
+CREATE DATABASE IF NOT EXISTS quan_ly_doan_tot_nghiep
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+```
+
+### 4.4. Setup tham số kết nối
+
+Mở file db_connection.php trong project, chỉnh thông tin DB:
+
+```bash
 <?php
-    function getDbConnection() {
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "quan_ly_doan_vien";
-        $port = 3306;
-        $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
-        if (!$conn) {
-            die("Kết nối database thất bại: " . mysqli_connect_error());
-        }
-        mysqli_set_charset($conn, "utf8");
-        return $conn;
-    }
+$servername = "localhost";
+$username = "root";       // Tên đăng nhập CSDL
+$password = "";           // Mật khẩu CSDL (mặc định của XAMPP là rỗng)
+$dbname = "quan_ly_doan_tot_nghiep"; // **Tên database đã tạo ở Bước 4.3**
+$port = 3306;
+
+// Đoạn mã kết nối...
+$conn = mysqli_connect($servername, $username, $password, $dbname, $port);
+
+if (!$conn) {
+    die("Kết nối database thất bại: " . mysqli_connect_error());
+}
+mysqli_set_charset($conn, "utf8");
 ?>
-4.5. Chạy hệ thống
-Mở XAMPP Control Panel → Start Apache và MySQL
+```
 
-Truy cập hệ thống: 👉 http://localhost/index.php
+### 4.5. Chạy hệ thống
 
-4.6. Đăng nhập lần đầu
-Hệ thống có thể cấp tài khoản admin
+Mở XMAPP Control Panel -> Start Apache và MySQL
 
-Sau khi đăng nhập Admin có thể:
+Truy cập hệ thống: http://localhost/quanlydoantotnghiep/
 
-Tạo thông tin tổ chức đoàn (Đoàn trường, Liên chi, Chi đoàn)
+## 5. Đăng nhập lần đầu
 
-Thêm đoàn viên và cấp tài khoản
+Hệ thống có sẵn tài khoản quản trị viên (Admin) để bạn đăng nhập và cấu hình ban đầu:
 
-Quản lý phân quyền theo cấp
+* **Username:** `admin`
+* **Password:** `admin123` (Hoặc `123456` - bạn hãy thay đổi cho đúng với dự án của mình)
+
+Sau khi đăng nhập với tư cách Admin, bạn có thể bắt đầu tạo tài khoản cho giảng viên và sinh viên.
