@@ -1,3 +1,4 @@
+# Hệ thống quản lý đồ án tốt nghiệp
 ## 1. Giới thiệu
 
 Nền tảng giúp kết nối sinh viên và giảng viên, tối ưu hóa mọi bước trong quá trình hoàn thành đồ án tốt nghiệp.
