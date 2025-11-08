@@ -29,13 +29,13 @@ Hệ thống được xây dựng nhằm hỗ trợ công tác quản lý, theo 
 ### Trang đăng nhập
 ![Ảnh chụp màn hình trang đăng nhập](image/z7200983374623_8bf2b538a1ce8f9a65c42dc50d64465d.jpg)
 
-### Trang dashboard admin
+### Trang admin
 ![Ảnh chụp màn hình trang admin](image/z7200982402483_6488b59012651dd1fc7f41773eac61ba.jpg)
 
-### Trang dashboard giảng viên
-![Ảnh chụp màn hình trang giảng viên](public/images/Screenshot_giangvien.png)
+### Trang thanh toán 
+![Ảnh chụp màn hình trang giảng viên](image/z7200982402484_2c02321c89c521acefb9558f57020c8e.jpg)
 
-### Trang dashboard sinh viên
+### Trang sinh viên
 ![Ảnh chụp màn hình trang sinh viên](public/images/Screenshot_sinhvien.png)
 
 
