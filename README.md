@@ -1,8 +1,9 @@
-# Hệ thống quản lý đồ án tốt nghiệp
+# Hệ thống quản lý kí túc xá sinh viên trường đại học 
 ## 1. Giới thiệu
 
-Nền tảng giúp kết nối sinh viên và giảng viên, tối ưu hóa mọi bước trong quá trình hoàn thành đồ án tốt nghiệp.
-Hệ thống được xây dựng nhằm hỗ trợ công tác quản lý, theo dõi và đánh giá hoạt động của sinh viên trong suốt quá trình làm đồ án. Thay vì quản lý thủ công, hệ thống mang đến một giải pháp tập trung, hiện đại và dễ sử dụng.
+Hệ thống được xây dựng bằng ngôn ngữ PHP và cơ sở dữ liệu MySQL, giúp tự động hóa quy trình quản lý, giảm sai sót, tiết kiệm thời gian và nâng cao hiệu quả làm việc.
+
+Việc thực hiện đề tài không chỉ mang lại lợi ích thực tiễn cho công tác quản lý ký túc xá mà còn giúp người phát triển rèn luyện kỹ năng lập trình web, thiết kế cơ sở dữ liệu và xử lý nghiệp vụ quản lý thực tế.
 
 ## 2. Các công nghệ được sử dụng
 
