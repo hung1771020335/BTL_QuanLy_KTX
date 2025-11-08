@@ -1,4 +1,3 @@
-<img width="1364" height="645" alt="image" src="https://github.com/user-attachments/assets/fea6586d-3738-4709-b751-d042f8d6d6e7" /># Hệ thống quản lý đồ án tốt nghiệp
 ## 1. Giới thiệu
 
 Nền tảng giúp kết nối sinh viên và giảng viên, tối ưu hóa mọi bước trong quá trình hoàn thành đồ án tốt nghiệp.
