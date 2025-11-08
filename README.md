@@ -36,7 +36,7 @@ Hệ thống được xây dựng nhằm hỗ trợ công tác quản lý, theo 
 ![Ảnh chụp màn hình trang giảng viên](image/z7200982402484_2c02321c89c521acefb9558f57020c8e.jpg)
 
 ### Trang sinh viên
-![Ảnh chụp màn hình trang sinh viên](public/images/Screenshot_sinhvien.png)
+![Ảnh chụp màn hình trang sinh viên](image/z7200982436973_e6c1c529305e359110e0dc5d4a6bd5ec.jpg)
 
 
 ## 4. Hướng dẫn cài đặt
