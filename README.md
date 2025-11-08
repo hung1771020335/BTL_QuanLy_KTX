@@ -27,7 +27,7 @@ Hệ thống được xây dựng nhằm hỗ trợ công tác quản lý, theo 
 ## 3. Hình ảnh các chức năng
 
 ### Trang đăng nhập
-![Ảnh chụp màn hình trang đăng nhập](public/images/trangdangnhap.png)
+![Ảnh chụp màn hình trang đăng nhập](image/z7200983374623_8bf2b538a1ce8f9a65c42dc50d64465d.jpg)
 
 ### Trang dashboard admin
 ![Ảnh chụp màn hình trang admin](public/images/Screenshot_admin.png)
